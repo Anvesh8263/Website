@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title> 
+    <style>
+        *{
+            margin: 0px;padding: 0px;
+        }
+        header{
+            background-color: white;
+    height: 50px;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border-top: 458px;
+    border-bottom-left-radius: 13px;
+    text-decoration: transparent;
+    color: white;
+        }
+        .eyes{
+            width: 87px;
+            height: 47px;
+            margin-right: 2px;
+            /* padding: ; */
+            border: 2px solid black;
+            border-radius: 14px;
+        }
+        body{
+            background-color:white;
+        }
+        li{
+            float: right;
+            padding: 9px;
+            margin: 10px;
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        header ul li a{
+            width: 20px;
+            height: 5px;
+            color:black;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+        
+        header ul li a:hover{
+            width: 20px;
+            height: 5px;
+            background-color: black;
+            color:white;
+            text-decoration: none;
+            border-radius: 3px;
+
+        }
+        h1{
+            text-align: center;
+            /* margin-left: 250px; */
+        }
+        p{
+            text-align: center;
+        }
+        .kl{
+            margin: 10px;padding: 8px;
+            text-align: center;
+        }
+        .box{
+            position: relative;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgb(69, 35, 193);
+            margin-left: auto;
+            margin-right: auto;
+            width: 255px;
+            height: 287px;
+            color: #fff;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+        .box::before{
+            content:'';
+            position:absolute;
+            width: 150px;
+            height: 140%;
+            background: linear-gradient(black,black);
+            animation: animate 4s linear infinite;
+        } 
+        .box::after{
+            content:'';
+            position:absolute;
+            inset: 4px;
+            
+        }   
+        .box img{
+            position: relative;
+            color:#fff;
+            font-size: 10em;
+            z-index: 10;
+        }   
+        @keyframes animate {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(350deg);
+            }
+            
+        }    
+        .yo{
+            border-radius: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 250px;  
+        }
+        .lp{
+            border-radius: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 250px; 
+        }
+        .nm{
+            border-radius: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 250px; 
+        }
+        img{
+            padding: 12px;
+            width: 250px;
+            height: 250px;
+            
+        }
+        .eyes{
+            width: 87px;
+            height: 47px;
+            margin-right: 2px;
+            /* padding: ; */
+            border: 2px solid black;
+            border-radius: 14px;
+        }
+
+        .text{
+            padding: 10px;margin: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;    
+        }
+        .hi{
+            padding: 10px;margin: 16px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .op{
+            padding: 10px;margin: 16px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .be{
+            padding: 10px;margin: 16px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        footer{
+            background-color: white;
+            color: black;
+            height: 40px;
+            text-align: center;
+            padding: 42px;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        
+        <ul>
+           
+            <li><a href="./Contact.htm">Contact Us</a></li>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./Home.html">Home</a></li></div>
+           
+            <ul>
+                   
+  </header>
+    
+        <u><h1>About Us</h1></u>
+           
+        
+        <p>Wedding.com is an shopping website which provides best Wedding clothes and ornaments  with best offers.
+
+            If you have any query regrading Site, Advertisement and any other issue, please feel free to contact at anveshmangalam30@gmail.com</p>
+           <div class="kl">
+            <u><h2>Meet Our Team:-</h2></u></div>
+           
+               <div class="box"><img src="./Images/ann.jpeg" alt=""></div> 
+                <div class="text">
+                    <u><p>Mr.Anvesh Mangalam</p>
+                    <p>Founder</p></u>
+                </div>
+                <div class="box">
+                    <img src="./Images/Sachin.jpeg" alt="">
+                </div>
+                <div class="hi">
+                    <u><p>Mr.Sachin Kumar</p>
+                    <p>Co-Founder</p></u>
+                </div>
+                <div class="box"><img src="./Images/Krishna.jpg" alt=""></div> 
+                <div class="text">
+                    <u><p>Mr.Krishna Saraswat</p>
+                    <p>Tech-Manager</p></u>
+                </div>
+             <footer>
+                Copyright &copy; MyWedding.com
+             </footer>  
+            
+           
+</body>
+</html>
